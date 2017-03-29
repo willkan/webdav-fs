@@ -2,7 +2,7 @@
 
 var TYPE_KEY = '@@fsType';
 
-var createWebDAVClient = require("webdav");
+var createWebDAVClient = require("webdav-for-chinese");
 
 function __convertStat(data) {
     return {
